@@ -1,0 +1,12 @@
+.header {
+	width: 100vw;
+	background-color: #333;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-link {
+	padding: 15px 25px;
+	font-size: xx-large;
+	color: white;
+}
