@@ -34,3 +34,12 @@
 .youtube-frame {
 	width: 60vw;
 }
+
+@media only screen and (max-width: 768px) {
+	.grid {
+		display: block;
+	}
+	.grid-col {
+		max-width: 100%;
+	}
+}
