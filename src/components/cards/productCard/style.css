@@ -1,7 +1,7 @@
 .card {
 	position: relative;
 	height: 330px;
-	margin: 10px;
+	/*margin: 10px;*/
 	background-color: #000;
 	overflow: hidden;
 	cursor: pointer;
@@ -19,7 +19,7 @@
 
 .card:hover .overlay {
 	background-color: #ffce00;
-	opacity: 0.95;
+	opacity: 0.9;
 }
 
 .card:hover .title {
@@ -54,7 +54,7 @@
 	background-color: #000;
 	width: 100%;
 	height: 100%;
-	opacity: 0.25;
+	opacity: 0.45;
 	transition: opacity 0.2s;
 }
 

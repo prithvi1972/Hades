@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-function ProductCard({ rowSpan = 1, title = '', subTitle = '', image = '' }) {
+function ProductCard({ rowSpan = 1, title = '', subTitle = '', image = '', onClick }) {
 	return (
-		<div className={rowSpan === 2 ? 'card card-2x' : 'card'}>
+		<div className={rowSpan === 2 ? 'card card-2x' : 'card'} onClick={onClick}>
 			<img className={'card-bck'} src={image} alt={title} />
 			<div className={'overlay'}>
 				<i className="card-play fab fa-youtube" />
