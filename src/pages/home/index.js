@@ -1,16 +1,12 @@
 import React from 'react';
-import ParallaxSection from './sections/parallax';
-import CardLayoutSection from './sections/cardLayout';
-// import Separator from '../../components/separator/'
+import IntroSection from './sections/introSection';
+import FilmSection from './sections/filmSection';
 
 function Home() {
 	return (
 		<>
-			{/*<Separator color={'#ffce00'} />*/}
-			<ParallaxSection />
-			{/*<Separator color={'#ffce00'} />*/}
-			<CardLayoutSection />
-			{/*<Separator color={'#ffce00'} />*/}
+			<IntroSection />
+			<FilmSection />
 		</>
 	);
 }

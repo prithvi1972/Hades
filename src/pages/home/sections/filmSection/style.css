@@ -1,0 +1,16 @@
+.filmsSection {
+	height: 100vh;
+	width: 100vw;
+	background-color: #eee;
+}
+
+.filmsHead {
+	font-family: 'Pacifico', cursive;
+	font-size: 38px;
+	font-weight: 400;
+	padding: 20px 0;
+}
+
+.cardsWrapper {
+	display: flex;
+}

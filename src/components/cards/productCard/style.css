@@ -17,17 +17,6 @@
 	object-fit: cover;
 }
 
-.card-play {
-	position: absolute;
-	font-size: 80px;
-	color: #c4302b;
-	left: 50%;
-	top: 48%;
-	transform: translate(-50%, -45%);
-	opacity: 0;
-	transition: all 1s;
-}
-
 .overlay {
 	position: absolute;
 	top: 0;
@@ -54,7 +43,7 @@
 	background-color: black;
 	color: #fff;
 	bottom: 30px;
-	padding: 2px;
+	padding: 2px 5px;
 }
 
 .sub-title {
@@ -62,26 +51,42 @@
 	bottom: 10px;
 }
 
-.card:hover .overlay {
-	background-color: #ffce00;
-	opacity: 0.9;
+/* Desktop only styling */
+@media only screen and (min-width: 768px) {
+	.card:hover .overlay {
+		background-color: #ffce00;
+		opacity: 0.9;
+	}
+
+	.card:hover .title {
+		transform: translateY(-10px);
+		opacity: 1;
+	}
+
+	.card:hover .sub-title {
+		transform: translateY(-10px);
+		opacity: 1;
+	}
+
+	.card:hover .card-play {
+		transform: translate(-50%, -50%);
+		opacity: 1;
+	}
+
+    .card-play {
+        position: absolute;
+        font-size: 80px;
+        color: #c4302b;
+        left: 50%;
+        top: 48%;
+        transform: translate(-50%, -45%);
+        opacity: 0;
+        transition: all 1s;
+    }
+
 }
 
-.card:hover .title {
-	transform: translateY(-10px);
-	opacity: 1;
-}
-
-.card:hover .sub-title {
-	transform: translateY(-10px);
-	opacity: 1;
-}
-
-.card:hover .card-play {
-	transform: translate(-50%, -50%);
-	opacity: 1;
-}
-
+/* Mobile only styling */
 @media only screen and (max-width: 768px) {
 	.title {
 		/*width: 100%;*/
@@ -91,7 +96,7 @@
 		text-align: center;
 		padding: 10px 15px;
 		opacity: 1;
-		max-width: 230px;
+		max-width: 280px;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 		overflow: hidden;
@@ -105,5 +110,8 @@
 	.overlay {
 		background-color: rgba(0, 0, 0, 0.4);
 		opacity: 1;
+	}
+	.card-play {
+		display: none;
 	}
 }
