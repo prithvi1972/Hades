@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hades/static/css/main.8828f946.chunk.css",
+    "main.css": "/hades/static/css/main.d5eb533f.chunk.css",
     "main.js": "/hades/static/js/main.2e5b1e48.chunk.js",
     "main.js.map": "/hades/static/js/main.2e5b1e48.chunk.js.map",
     "runtime~main.js": "/hades/static/js/runtime~main.841f6d05.js",
@@ -8,8 +8,8 @@
     "static/js/2.a4bda278.chunk.js": "/hades/static/js/2.a4bda278.chunk.js",
     "static/js/2.a4bda278.chunk.js.map": "/hades/static/js/2.a4bda278.chunk.js.map",
     "index.html": "/hades/index.html",
-    "precache-manifest.61e1c68e2548d3961bfe4c3b47dcd612.js": "/hades/precache-manifest.61e1c68e2548d3961bfe4c3b47dcd612.js",
+    "precache-manifest.b1651252e4c6592831caf9253de32da6.js": "/hades/precache-manifest.b1651252e4c6592831caf9253de32da6.js",
     "service-worker.js": "/hades/service-worker.js",
-    "static/css/main.8828f946.chunk.css.map": "/hades/static/css/main.8828f946.chunk.css.map"
+    "static/css/main.d5eb533f.chunk.css.map": "/hades/static/css/main.d5eb533f.chunk.css.map"
   }
 }
