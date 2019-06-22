@@ -9,10 +9,10 @@ const cards = [
 	{title: 'esdrft', subTitle: 'ubhj ygbhn ybhujnk vgbh', image:'/img/intro-bck.jpeg'},
 ];
 
-function FilmSection() {
+function BlogSection() {
 	return (
-		<section className={'filmsSection'}>
-			<h2 className={'filmsHead'}>Films</h2>
+		<section className={'blogSection'}>
+			<h2 className={'blogHead'}>Blog</h2>
 			<div className={'cardsWrapper'}>
 				{cards.map(({ title, subTitle, image, onClick }) => (
 					<ProductCard
@@ -27,4 +27,4 @@ function FilmSection() {
 	);
 }
 
-export default FilmSection;
+export default BlogSection;

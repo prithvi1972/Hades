@@ -1,16 +1,18 @@
 import React from 'react';
 import './style.css';
-import {toggleSideNav} from "./utils";
+import { toggleSideNav } from './utils';
+import profile from './res/profile.jpg';
 
 function SideNavigation() {
 	return (
 		<>
 			<div id={'sidenav-overlay'} onClick={toggleSideNav} />
 			<nav className={'sidenav'} id={'sidenav'}>
-				<div className={'logo'}>logo</div>
-				<div className={'navItem'}>Item 1</div>
-				<div className={'navItem'}>Item 1</div>
-				<div className={'navItem'}>Item 1</div>
+				<img src={profile} alt={'profile'} className={'logo'} />
+				<span className={'sideNavName'}>Moonto Bassi</span>
+				<div className={'navItem'}>Films</div>
+				<div className={'navItem'}>Blog</div>
+				<div className={'navItem'}>Connect</div>
 			</nav>
 		</>
 	);

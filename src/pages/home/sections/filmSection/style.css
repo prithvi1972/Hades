@@ -1,5 +1,6 @@
 .filmsSection {
-	height: 100vh;
+	padding: 0 0 50px 0;
+	/*height: 100vh;*/
 	width: 100vw;
 	background-color: #eee;
 }
@@ -12,5 +13,32 @@
 }
 
 .cardsWrapper {
+	text-align: center;
+}
+
+.video-bck {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	max-width: 100vw;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.9);
+	z-index: 301;
+}
+
+.youtube-frame {
+	position: relative;
+	width: 80%;
+	height: 50%;
+	background-color: black;
+}
+
+@media only screen and (min-width: 768px) {
+	.youtube-frame {
+		height: 70%;
+	}
 }

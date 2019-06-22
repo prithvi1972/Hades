@@ -24,7 +24,7 @@
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.8);
 	z-index: 400;
 	display: none;
 }
@@ -34,8 +34,8 @@
 }
 
 .logo {
-	width: 75px;
-	height: 75px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	background-color: #eee;
 	margin: 10px 0;
@@ -48,6 +48,23 @@
 
 .navItem {
 	padding: 10px;
+	font-size: 20px;
 	color: #fff;
 	text-align: center;
+	cursor: pointer;
+}
+
+.navItem:hover {
+	color: #ffce00;
+}
+
+.sideNavName {
+	width: 80%;
+	margin: 0 auto 10px;
+	font-size: 18px;
+	font-style: italic;
+	padding: 0 0 10px 0;
+	border-bottom: 4px solid #222;
+	text-align: center;
+	color: white;
 }

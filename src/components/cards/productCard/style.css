@@ -1,14 +1,13 @@
 .card {
 	position: relative;
-	height: 330px;
+	height: 265px;
+	width: 265px;
+	margin: 10px;
+	display: inline-block;
 	/*margin: 10px;*/
 	background-color: #000;
 	overflow: hidden;
 	cursor: pointer;
-}
-
-.card-2x {
-	height: 600px;
 }
 
 .card-bck {
@@ -36,12 +35,16 @@
 	transform: translateY(0px);
 	transition: all 1s;
 	opacity: 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 230px;
 }
 
 .title {
 	text-transform: capitalize;
-	background-color: black;
-	color: #fff;
+	background-color: #000;
+	color: #eee;
 	bottom: 30px;
 	padding: 2px 5px;
 }
@@ -73,33 +76,29 @@
 		opacity: 1;
 	}
 
-    .card-play {
-        position: absolute;
-        font-size: 80px;
-        color: #c4302b;
-        left: 50%;
-        top: 48%;
-        transform: translate(-50%, -45%);
-        opacity: 0;
-        transition: all 1s;
-    }
-
+	.card-play {
+		position: absolute;
+		font-size: 80px;
+		color: #c4302b;
+		left: 50%;
+		top: 48%;
+		transform: translate(-50%, -45%);
+		opacity: 0;
+		transition: all 1s;
+	}
 }
 
 /* Mobile only styling */
 @media only screen and (max-width: 768px) {
 	.title {
 		/*width: 100%;*/
+		font-size: 18px;
 		height: auto;
 		left: 0;
 		bottom: 40px;
 		text-align: center;
 		padding: 10px 15px;
 		opacity: 1;
-		max-width: 280px;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		overflow: hidden;
 		border-top-right-radius: 5px;
 		border-bottom-right-radius: 5px;
 		background-color: rgba(0, 0, 0, 0.65);
