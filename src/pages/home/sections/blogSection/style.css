@@ -9,7 +9,14 @@
 	font-family: 'Pacifico', cursive;
 	font-size: 38px;
 	font-weight: 400;
-	padding: 20px 0;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.blogHead {
+		text-align: right;
+	}
 }
 
 .cardsWrapper {

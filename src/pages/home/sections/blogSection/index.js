@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import ProductCard from '../../../../components/cards/productCard';
+import BlogCard from '../../../../components/cards/blogCard';
 
 const cards = [
 	{title: 'esdrft', subTitle: 'ubhj ygbhn ybhujnk vgbh', image:'/img/intro-bck.jpeg'},
@@ -15,7 +15,7 @@ function BlogSection() {
 			<h2 className={'blogHead'}>Blog</h2>
 			<div className={'cardsWrapper'}>
 				{cards.map(({ title, subTitle, image, onClick }) => (
-					<ProductCard
+					<BlogCard
 						title={title}
 						subTitle={subTitle}
 						image={image}

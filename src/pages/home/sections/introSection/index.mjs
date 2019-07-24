@@ -11,7 +11,7 @@ function IntroSection() {
 				</div>
 			</div>
 			<div className={'scrollDown'}>
-				<i className={'downArr'} />
+				<a className={'downArr'} href="#films"/>
 			</div>
 		</section>
 	);

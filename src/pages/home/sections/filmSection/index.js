@@ -32,7 +32,7 @@ function FilmSection() {
 	useEffect(handleBodyScroll);
 
 	return (
-		<section className={'filmsSection'}>
+		<section className={'filmsSection'} name="films">
 			<h2 className={'filmsHead'}>Films</h2>
 			<div className={'cardsWrapper'}>
 				{grid.map(({ title, subTitle, image, url }) => (
