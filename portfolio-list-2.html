@@ -45,25 +45,125 @@
 </head>
 
 <body>
-    <!-- Begin global search (simple)
-		==================================
-		* Use class "gl-search-dark" to enable global search dark style.
-		-->
-    <div id="global-search" class="gl-s gls-simple">
-        <!-- Begin global search close button -->
-        <div class="global-search-close-wrap">
-            <a href="#0" class="global-search-close" title="Close">
-                <i class="fas fa-close"></i>
-            </a>
+    <!-- ===================
+    ///// Begin header /////
+    ==================== -->
+    <div id="header">
+
+        <!-- Begin logo
+		================ -->
+        <div id="logo">
+            <a href="index.html"><img src="assets/img/logo-dark.png" title="Home" alt="logo"></a>
         </div>
-        <!-- End global search close button -->
-        <!-- Begin global search form -->
-        <form id="global-search-form" method="get" action="search-results-2.html">
-            <input type="text" class="form-control" id="global-search-input" name="search" placeholder="Type your keywords...">
-        </form>
-        <!-- End global search form -->
+        <!-- End logo -->
+
+        <!-- =================
+		///// Begin menu /////
+		======================
+		* Use class "slide-left", "slide-left-half", "slide-right", "slide-right-half", "slide-top", "slide-bottom" or "zoom-in" to change menu effect.
+		-->
+        <nav id="menu" class="menu slide-right-half bg-image" style="background-image: url(assets/img/misc/menu-bg-1.jpg); background-position: 50% 50%">
+
+            <!-- Element cover -->
+            <div class="cover bg-transparent-5-dark"></div>
+
+            <!-- Begin menu inner -->
+            <div id="menu-inner">
+
+                <!-- Begin menu content -->
+                <div id="menu-content">
+
+                    <!-- Begin menu nav -->
+                    <div class="menu-nav">
+                        <ul class="menu-list">
+                            <li class="has-children">
+                                <a href="about-us.html" class="sub-menu-trigger">About</a>
+                                <ul class="sub-menu">
+                                    <li>Who am I | What I do</li>
+                                </ul>
+                            </li>
+                            <li class="has-children active">
+                                <a class="sub-menu-trigger">Portfolio</a>
+                                <ul class="sub-menu">
+                                    <li>List of Films & Print Media</li>
+                                </ul>
+                            </li>
+                            <li class="has-children">
+                                <a href="contact-simple.html" class="sub-menu-trigger">Contact</a>
+                                <ul class="sub-menu">
+                                    <li>Let's work together</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End menu nav -->
+
+                </div>
+                <!-- End menu inner -->
+
+                <!-- Begin menu footer -->
+                <div class="menu-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+
+                            <!-- Begin social buttons -->
+                            <div class="social-buttons">
+                                <ul>
+                                    <li><a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on twitter"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on dribbble"><i class="fab fa-dribbble"></i></a></li>
+                                    <li><a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on behance"><i class="fab fa-behance"></i></a></li>
+                                    <li><a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on youtube"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- End social buttons -->
+
+                        </div> <!-- /.col -->
+
+                        <div class="col-sm-6 text-right">
+                            <!-- made with love -->
+                            <div class="made-with-love hide-from-sm">
+                                <p>Made With <span class="text-yellow"><i class="far fa-heart"></i></span></p>
+                            </div>
+                        </div> <!-- /.col -->
+                    </div> <!-- /.row -->
+                </div>
+                <!-- End menu footer -->
+
+            </div>
+            <!-- End menu content -->
+
+        </nav>
+        <!-- End menu -->
+
+
+        <!-- ==============================
+		///// Begin header attriputes /////
+		=============================== -->
+        <div id="header-attriputes">
+            <ul>
+                <li>
+                    <!-- Begin menu trigger -->
+                    <div id="menu-trigger">
+                        <div class="mt-inner">
+                            <div class="menu-str">
+                                <span class="str-1"></span>
+                                <span class="str-2"></span>
+                                <span class="str-3"></span>
+                            </div>
+                        </div>
+                        <div class="mt-text">Menu</div>
+                    </div>
+                    <!-- End menu trigger -->
+                </li>
+            </ul>
+        </div>
+        <!-- End header attriputes -->
+
     </div>
-    <!-- End global search -->
+    <!-- End header -->
+
     <!-- *************************************
 		*********** Begin body content ***********
 		************************************** -->
@@ -151,7 +251,7 @@
                                 <a
                                         onclick="showPlayer('https://www.youtube.com/embed/NNL9FQ0WdbI?autoplay=1')"
                                         class="portfolio-list-item bg-image"
-                                        style="background-image: url('https://img.youtube.com/vi/NNL9FQ0WdbI/hqdefault.jpg'); background-position: 50% 50%; background-size: 108%"
+                                        style="background-image: url('https://img.youtube.com/vi/NNL9FQ0WdbI/hqdefault.jpg'); background-position: 50% 50%; background-size: 110%"
                                 >
                                     <div style="position: absolute; width: 100%; height: 100%; background-color: transparent; display: flex; align-items: center; justify-content: center">
                                         <div style="width: 100px; height: 100px; border-radius: 50%; background-color: rgba(0,0,0,0.8)">
