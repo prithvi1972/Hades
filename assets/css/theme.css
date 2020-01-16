@@ -2213,8 +2213,11 @@ h6 {
 /* portfolio single gallery item */
 .ps-gallery-item {
 	position: relative;
+	margin: 0 auto;
 	display: block;
 	overflow: hidden;
+	width: 800px;
+	height: auto;
 }
 .ps-gallery-item .ps-gallery-item-image {
 	position: absolute;
