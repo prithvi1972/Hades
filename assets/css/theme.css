@@ -275,6 +275,7 @@ p {
 	position: absolute;
 	margin-top: 3%;
 	left: 3%;
+	display: none;
 }
 @media (max-width: 768px) {
 	#logo {
@@ -1239,10 +1240,14 @@ h6 {
 
 #page-header {
 	/* height handled by "theme.js" file (element percent height) */
-	min-height: 460px;
+	height: 60vh;
 	overflow: hidden;
 	background-color: #111;
-	overflow: hidden;
+}
+@media (max-width: 768px) {
+	#page-header {
+		height: 380px;
+	}
 }
 
 /* page header image */
@@ -1268,9 +1273,10 @@ h6 {
 /* page header title */
 .page-header-title {
 	display: inline-block;
+	padding: 7px;
 	background-color: #000;
 	margin: 0;
-	font-size: 48px;
+	font-size: 36px;
 	font-weight: 400;
 	color: #fff;
 	line-height: 1;
