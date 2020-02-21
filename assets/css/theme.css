@@ -203,11 +203,14 @@ p {
 	transition: all 0.25s ease-in-out;
 }
 
+.body-main {
+	padding-top: 50px;
+}
+
 @media (min-width: 768px) {
 	.body-main {
 		max-width: calc(100vw - 100px);
 		margin: 0 auto;
-		padding-top: 50px;
 	}
 	.footer-main {
 		max-width: calc(100vw - 100px);
