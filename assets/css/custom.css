@@ -1,0 +1,27 @@
+.top-nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b0b0b;
+    color: #fff;
+    z-index: 3;
+    width: 100vw;
+    margin: -100px -100px 30px;
+    padding: 15px;
+}
+
+#top-nav-branding {
+    font-size: larger;
+}
+
+#home-btn {
+    font-size: xx-large;
+    width: 50px;
+    height: 50px;
+    background-color: #ffe800;
+    text-align: center;
+    color: black;
+}
