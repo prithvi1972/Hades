@@ -307,6 +307,12 @@ p {
 	transition: all 0.4s ease-in-out;
 }
 
+@media (max-width: 768px) {
+	#menu {
+		z-index: 3;
+	}
+}
+
 .menu-open:before {
 	position: fixed;
 	display: block;

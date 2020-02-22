@@ -24,4 +24,9 @@
     background-color: #ffe800;
     text-align: center;
     color: black;
+    transform: scale(0.75);
+}
+
+#sidenav-crumbs {
+    transform: scale(0.75);
 }
