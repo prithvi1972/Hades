@@ -1,18 +1,13 @@
 import React from 'react';
 import './style.css';
+import config from './config';
 
 function IntroSection() {
 	return (
-		<section className={'introSection'}>
-			<div className={'introContent'}>
-				<div className={'mainHead'}>Montoo Bassi</div>
-				<div className={'typewriter'}>
-					<h1>Writer, Film Director, Lyricist, Adman</h1>
-				</div>
-			</div>
-			<div className={'scrollDown'}>
-				<a className={'downArr'} href="#films"/>
-			</div>
+		<section className="introSection">
+			<img src={config.introImage.src} alt={config.introImage.alt} className="introImage" />
+			<h1 className="introTitle">Hello, I'm Montoo Bassi</h1>
+			<h2 className="introSubtitle">The creative Ad Maker</h2>
 		</section>
 	);
 }
